@@ -44,10 +44,14 @@ void ofApp::setup(){
     timeline.setup();
     timeline.setLoopType(OF_LOOP_NORMAL);
     timeline.setBPM(120.f);
-    timeline.enableSnapToBPM(true);
-    timeline.setShowBPMGrid(true);
-    timeline.addAudioTrack("Audio","4chan.wav");
-    timeline.addDropDownFlags("Presets");
+    timeline.enableSnapToBPM(false);
+    timeline.setShowBPMGrid(false);
+    timeline.addAudioTrack("Audio","BATALLA.wav");
+    timeline.addDropDownFlags("PRESET Font 1");
+    timeline.addCurves("MASTER Font 1");
+    timeline.addDropDownFlags("PRESET Font 2");
+    timeline.addCurves("MASTER Font 2");
+//    timeline.addLFO("LFO");
     
     //this means that calls to play/stop etc will be  routed to the waveform and that timing will be 100% accurate
     timeline.setTimecontrolTrack("Audio");
@@ -70,9 +74,9 @@ void ofApp::draw(){
     
     //change the background color based on the current bin and amount
     
-    ofxTLAudioTrack* track = timeline.getAudioTrack("Audio");
-    int bin = ofMap(mouseX, 0, ofGetWidth(), 0, track->getFFTSize()-1, true);
-    ofBackground( track->getFFT()[bin] * 2000 );
+//    ofxTLAudioTrack* track = timeline.getAudioTrack("Audio");
+//    int bin = ofMap(mouseX, 0, ofGetWidth(), 0, track->getFFTSize()-1, true);
+//    ofBackground( track->getFFT()[bin] * 2000 );
     
     timeline.draw();
 }
