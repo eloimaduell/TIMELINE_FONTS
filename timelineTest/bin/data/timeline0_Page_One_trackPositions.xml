@@ -1,32 +1,39 @@
 <positions>
     <element name="Audio">
+        <trackType>Audio</trackType>
         <x>0.000000000</x>
-        <y>70.000000000</y>
+        <y>100.000000000</y>
         <width>1920.000000000</width>
-        <height>0.000000000</height>
+        <height>68.000000000</height>
     </element>
-    <element name="MASTER Font 1">
+    <element name="MASTER_Font_1">
+        <trackType>Curves</trackType>
         <x>0.000000000</x>
-        <y>437.000000000</y>
+        <y>349.000000000</y>
         <width>1920.000000000</width>
-        <height>182.000000000</height>
+        <height>68.000000000</height>
     </element>
-    <element name="MASTER Font 2">
+    <element name="MASTER_Font_2">
+        <trackType>Curves</trackType>
         <x>0.000000000</x>
-        <y>906.000000000</y>
+        <y>556.000000000</y>
         <width>1920.000000000</width>
-        <height>131.000000000</height>
+        <height>111.000000000</height>
     </element>
-    <element name="PRESET Font 1">
+    <element name="PRESET_Font_1">
+        <trackType>DropDownFlags</trackType>
+        <delayMs>0.000000000</delayMs>
         <x>0.000000000</x>
-        <y>111.000000000</y>
+        <y>209.000000000</y>
         <width>1920.000000000</width>
-        <height>285.000000000</height>
+        <height>99.000000000</height>
     </element>
-    <element name="PRESET Font 2">
+    <element name="PRESET_Font_2">
+        <trackType>DropDownFlags</trackType>
+        <delayMs>0.000000000</delayMs>
         <x>0.000000000</x>
-        <y>660.000000000</y>
+        <y>458.000000000</y>
         <width>1920.000000000</width>
-        <height>205.000000000</height>
+        <height>57.000000000</height>
     </element>
 </positions>

@@ -47,21 +47,22 @@ void ofApp::setup(){
     timeline.enableSnapToBPM(false);
     timeline.setShowBPMGrid(false);
     timeline.addAudioTrack("Audio","BATALLA.wav");
-    timeline.addDropDownFlags("PRESET Font 1");
-    timeline.addCurves("MASTER Font 1");
-    timeline.addDropDownFlags("PRESET Font 2");
-    timeline.addCurves("MASTER Font 2");
-//    timeline.addLFO("LFO");
+    timeline.addDropDownFlags("PRESET_Font_1");
+    timeline.addCurves("MASTER_Font_1");
+    timeline.addDropDownFlags("PRESET_Font_2");
+    timeline.addCurves("MASTER_Font_2");
+//    timeline.loadTracksFromFolder(".");
     
     //this means that calls to play/stop etc will be  routed to the waveform and that timing will be 100% accurate
     timeline.setTimecontrolTrack("Audio");
+    
     
     //fun to watch on FFT
     //waveform.loadSoundfile("audiocheck.net_sweep20-20klog.wav");
     //waveform.loadSoundfile("audiocheck.net_sweep20-20klin.wav");
     
     timeline.setDurationInSeconds(timeline.getAudioTrack("Audio")->getDuration());
-    
+    timeline.getCurrentPage()->evenlyDistributeTrackHeights();
 }
 
 //--------------------------------------------------------------

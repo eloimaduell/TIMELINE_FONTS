@@ -1,12 +1,22 @@
 <keyframes>
     <key>
-        <option>2</option>
-        <time>00:00:01:228</time>
-        <value>0.500000000</value>
+        <option>1</option>
+        <time>00:00:02:575</time>
+        <value>0.480000019</value>
     </key>
     <key>
         <option>1</option>
-        <time>00:00:02:300</time>
-        <value>0.728070140</value>
+        <time>00:00:03:571</time>
+        <value>0.680000007</value>
+    </key>
+    <key>
+        <option>1</option>
+        <time>00:00:04:383</time>
+        <value>0.680000007</value>
+    </key>
+    <key>
+        <option>0</option>
+        <time>00:00:05:366</time>
+        <value>0.319999993</value>
     </key>
 </keyframes>

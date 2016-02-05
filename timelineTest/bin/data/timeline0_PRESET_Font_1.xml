@@ -1,17 +1,37 @@
 <keyframes>
     <key>
         <option>4</option>
-        <time>00:00:02:990</time>
-        <value>0.295143068</value>
+        <time>00:00:00:237</time>
+        <value>0.444753289</value>
     </key>
     <key>
-        <option>-1</option>
-        <time>00:00:04:507</time>
-        <value>0.625000000</value>
+        <option>4</option>
+        <time>00:00:00:400</time>
+        <value>0.893466890</value>
     </key>
     <key>
-        <option>-1</option>
-        <time>00:00:07:391</time>
-        <value>0.435087740</value>
+        <option>0</option>
+        <time>00:00:00:443</time>
+        <value>0.313377261</value>
+    </key>
+    <key>
+        <option>4</option>
+        <time>00:00:00:497</time>
+        <value>0.077287257</value>
+    </key>
+    <key>
+        <option>2</option>
+        <time>00:00:04:695</time>
+        <value>0.395061731</value>
+    </key>
+    <key>
+        <option>3</option>
+        <time>00:00:05:504</time>
+        <value>0.641975284</value>
+    </key>
+    <key>
+        <option>4</option>
+        <time>00:00:06:462</time>
+        <value>0.419753075</value>
     </key>
 </keyframes>

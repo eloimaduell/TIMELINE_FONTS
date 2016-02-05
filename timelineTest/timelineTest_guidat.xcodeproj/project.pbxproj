@@ -62,6 +62,7 @@
 		B06101D31C4909E4007ECA92 /* ofxTLDropDownFlags.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B06101D11C4909E4007ECA92 /* ofxTLDropDownFlags.cpp */; settings = {ASSET_TAGS = (); }; };
 		B06106831C491709007ECA92 /* ofxDatGuiComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B06106491C491709007ECA92 /* ofxDatGuiComponent.cpp */; settings = {ASSET_TAGS = (); }; };
 		B06106841C491709007ECA92 /* ofxDatGui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B061064E1C491709007ECA92 /* ofxDatGui.cpp */; settings = {ASSET_TAGS = (); }; };
+		B0C52E001C564C3E008B8869 /* ofxTLTrackHeaderDropDown.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0C52DFE1C564C3E008B8869 /* ofxTLTrackHeaderDropDown.cpp */; settings = {ASSET_TAGS = (); }; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
 		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
@@ -239,6 +240,8 @@
 		B06106511C491709007ECA92 /* ofxDatGuiTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxDatGuiTheme.h; sourceTree = "<group>"; };
 		B06106521C491709007ECA92 /* ofxDatGuiThemes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxDatGuiThemes.h; sourceTree = "<group>"; };
 		B07C508E7717E6C892502ADF /* ofxEasingQuad.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxEasingQuad.h; path = ../../../addons/ofxTween/src/Easings/ofxEasingQuad.h; sourceTree = SOURCE_ROOT; };
+		B0C52DFE1C564C3E008B8869 /* ofxTLTrackHeaderDropDown.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxTLTrackHeaderDropDown.cpp; sourceTree = "<group>"; };
+		B0C52DFF1C564C3E008B8869 /* ofxTLTrackHeaderDropDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxTLTrackHeaderDropDown.h; sourceTree = "<group>"; };
 		B21E7E5F548EEA92F368040B /* tinyxml.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = tinyxml.h; path = ../../../addons/ofxXmlSettings/libs/tinyxml.h; sourceTree = SOURCE_ROOT; };
 		B4EBE6922DE4DCB97639B65F /* ofxMSATimer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxMSATimer.cpp; path = ../../../addons/ofxMSATimer/src/ofxMSATimer.cpp; sourceTree = SOURCE_ROOT; };
 		B788152C3FE538E700D063C7 /* ofxEasingCubic.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxEasingCubic.h; path = ../../../addons/ofxTween/src/Easings/ofxEasingCubic.h; sourceTree = SOURCE_ROOT; };
@@ -459,6 +462,8 @@
 				1AD5A6DC1C10A34C0028491D /* ofxTLTrack.h */,
 				1AD5A6DD1C10A34C0028491D /* ofxTLTrackHeader.cpp */,
 				1AD5A6DE1C10A34C0028491D /* ofxTLTrackHeader.h */,
+				B0C52DFE1C564C3E008B8869 /* ofxTLTrackHeaderDropDown.cpp */,
+				B0C52DFF1C564C3E008B8869 /* ofxTLTrackHeaderDropDown.h */,
 				1AD5A6DF1C10A34C0028491D /* ofxTLVideoThumb.cpp */,
 				1AD5A6E01C10A34C0028491D /* ofxTLVideoThumb.h */,
 				1AD5A6E11C10A34C0028491D /* ofxTLVideoTrack.cpp */,
@@ -896,6 +901,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
+				B0C52E001C564C3E008B8869 /* ofxTLTrackHeaderDropDown.cpp in Sources */,
 				B06106841C491709007ECA92 /* ofxDatGui.cpp in Sources */,
 				1AD5A71F1C10A34C0028491D /* ofxTLImageTrack.cpp in Sources */,
 				1AD5A71A1C10A34C0028491D /* ofxTLEmptyKeyframes.cpp in Sources */,
